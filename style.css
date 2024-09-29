@@ -579,7 +579,7 @@ main .box4 .contacts .email a, main .box4 .contacts .in a {
     opacity: 1;
     transform: translateY(0);
 }
-@media  screen and (max-width:768px){
+@media  screen and (max-width:1024px){
     nav .name{
         opacity:0;
     }
