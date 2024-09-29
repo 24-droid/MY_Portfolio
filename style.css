@@ -1,0 +1,571 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+.text-muted {
+    color: hsl(0, 0%, 41%);
+}
+
+.container {
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    gap: 50rem;
+}
+
+nav .name {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+
+}
+
+nav li  a{
+    font-size: 2rem;
+    transition: border-bottom 2s;
+    color:black;
+}
+
+nav li a:hover {
+    color: rgb(181, 181, 181);
+    cursor: pointer;
+    border-bottom: 2px solid hsl(0, 0%, 41%);
+}
+
+.hero {
+    height: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.hero .photo {
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.hero .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hero .media {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    gap: 2rem;
+    width: 12rem;
+    height: 4rem;
+    overflow: hidden;
+}
+
+.hero .media img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hero .intro .greet {
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero .intro h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hero .intro .role {
+    font-size: 2rem;
+    color: rgb(112, 109, 109);
+    text-align: center;
+}
+
+.hero .intro .revert {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.hero .intro .revert a {
+    width: 10rem;
+    height: 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 1.2rem;
+    border: 2px solid black;
+}
+
+.hero .revert .contact {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.hero .revert .cv {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    transition: background-color 1s;
+}
+
+.hero .revert .cv:hover {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.hero .revert .contact:hover {
+    opacity: 0.6;
+}
+
+main .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    position: relative;
+}
+main .text-muted1 {
+    color: hsl(0, 0%, 30%);
+    text-align: center;
+}
+
+main .head .text-muted1 {
+    font-size: 1.2rem;
+}
+
+main .head h4 {
+    font-size: 3.5rem;
+}
+
+main .content {
+    display: flex;
+    gap: 6rem;
+}
+
+main .content .pic {
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+
+main .content .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+main .status .experience-badge,
+main .status .education-badge {
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+
+}
+
+main .status .experience-badge img,
+main .status .education-badge img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main .content .status .div1,
+main .content .status .div2 {
+    width: 35rem;
+    height: 10rem;
+    border-radius: 2rem;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .content .divs {
+    display: flex;
+    gap: 2rem;
+    margin-top: 12rem;
+}
+
+main .content .divs p {
+    font-size: 1.2rem;
+}
+
+main .content .experience {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    word-spacing: 0.5rem;
+    margin-left: 1.5rem;
+}
+
+main .box1 .arrow-down {
+    position: absolute;
+    bottom: -6rem;
+    right: 5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+
+}
+
+main .box1 .arrow-down img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main .box2 {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15rem;
+  
+}
+
+main .box2 .head {
+    text-align: center;
+}
+
+main .box2 .divs h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+main .box2 .divs {
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+main .box2 .divs .div3,
+main .box2 .divs .div4 {
+    display: flex;
+    width: 60rem;
+    height: 25rem;
+    border-radius: 2rem;
+    border: 2px solid gray;
+    flex-direction: column;
+
+}
+
+main .box2 .divs .div3 li,
+main .box2 .divs .div4 li {
+    width: 20rem;
+}
+
+main .box2 .divs .div3 .list1,
+main .box2 .divs .div3 .list2 {
+    display: flex;
+}
+
+main .box2 .divs .div3 .list1 li h6 {
+    font-weight: bold;
+}
+
+main .box2 .divs .div4 .list3 {
+    display: flex;
+}
+
+main .box2 .divs .div3 .listing1 {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem
+}
+
+main .box2 .divs .div4 .listing2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+main .box2 .divs .div4 .listing2 .list-4 {
+    margin-left: 20rem;
+}
+
+main .box2 .div3 li .icon,
+main .box2 .div4 li .icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    overflow: hidden;
+}
+
+main .box2 .div3 li .icon img,
+main .box2 .div4 li .icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+main .box2 .div3 li .checkbox,
+main .box2 .div4 li .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .box2 .div3 li .checkbox .subheading .text-muted1,
+main .box2 .div4 li .checkbox .subheading .text-muted1 {
+    font-size: 1.2rem;
+}
+
+main .box2 .arrow-down {
+    position: absolute;
+    bottom: -6rem;
+    right: 5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+
+}
+
+main .box2 .arrow-down img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main .box3 {
+    position:relative;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .box3 .head {
+    text-align: center;
+}
+
+main .box3 .boxess {
+    display: flex;
+    gap: 2rem;
+}
+
+main .box3 .boxess .div4,
+main .box3 .boxess .div5,
+main .box3 .boxess .div6 {
+    margin-top: 2rem;
+    width: 35rem;
+    height: 43rem;
+    border-radius: 2rem;
+    border: 2px solid gray;
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .box3 .boxess .div4 .image,
+main .box3 .boxess .div5 .image,
+main .box3 .boxess .div6 .image {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1rem;
+    overflow: hidden;
+
+}
+
+main .box3 .boxess .div4 .image img,
+main .box3 .boxess .div5 .image img,
+main .box3 .boxess .div6 .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+
+}
+
+main .box3 .boxess .div4 h4,
+main .box3 .boxess .div5 h4,
+main .box3 .boxess .div6 h4 {
+    font-size: 2rem;
+    margin-top:1rem;
+}
+
+main .box3 .boxess .div4 .revert,
+main .box3 .boxess .div5 .revert,
+main .box3 .boxess .div6 .revert {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+main .box3 .boxess .div4 .revert a,
+main .box3 .boxess .div5 .revert a,
+main .box3 .boxess .div6 .revert a {
+    width: 10rem;
+    height: 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 1.2rem;
+    border: 2px solid black;
+}
+
+.div4 .revert .contact,
+.div5 .revert .contact,
+.div6 .revert .contact {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.div4 .revert .cv,
+.div5 .revert .cv,
+.div6 .revert .cv {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    transition: background-color 1s;
+}
+
+.div4 .revert .cv:hover,
+.div5 .revert .cv:hover,
+.div6 .revert .cv:hover {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.div4 .revert .contact:hover,
+.div5 .revert .contact:hover,
+.div6 .revert .contact:hover {
+    opacity: 0.6;
+}
+main .box3 .arrow-down {
+    position: absolute;
+    bottom:0;
+    right: 5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+
+}
+
+main .box3 .arrow-down img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+main .box4 {
+    position:relative;
+    margin-top: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .box4 .head {
+    text-align: center;
+}
+main .box4 .contacts{
+    width:50rem;
+    height:8rem;
+    border-radius:2rem;
+    border:2px solid gray;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6rem;
+    margin-top:3rem;
+}
+main .box4 .contacts .email img,main .box4 .contacts .in img{
+  width:3.5rem;
+  height:3.5rem;
+  display:inline-block;
+}
+main .box4 .contacts .email, main .box4 .contacts .in {
+    display: flex;
+    align-items: center; 
+    gap: 1rem; 
+}
+
+main .box4 .contacts .email a, main .box4 .contacts .in a {
+    margin-bottom: 0; 
+    text-decoration: none; 
+    color: inherit; 
+    font-size:1.3rem;
+}
+.box4 .info{
+    margin-top:15rem;
+    margin-bottom:2rem;
+}
+.box4 .info ul {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.box4 .info ul li a{
+    font-size: 2rem;
+    transition: border-bottom 2s;
+    color:black;
+}
+
+.box4 .info ul li a:hover {
+    color: rgb(181, 181, 181);
+    cursor: pointer;
+    border-bottom: 2px solid hsl(0, 0%, 41%);
+}
+.box4 .text-muted1{
+    font-size:1.2rem;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+}
+.hero, .box1, .box2, .box3, .box4 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease, transform 1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
