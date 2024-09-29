@@ -579,3 +579,23 @@ main .box4 .contacts .email a, main .box4 .contacts .in a {
     opacity: 1;
     transform: translateY(0);
 }
+@media  screen and (max-width:786px){
+    nav .name{
+        opacity:0;
+    }
+    .box1 .content{
+        display:flex;
+        flex-direction:column;
+    }
+    .arrow-down{
+        opacity:0;
+    }
+    main .box2 .divs{
+        display:flex;
+        flex-direction:column;
+    }
+    main .box3 .boxess{
+        display:flex;
+        flex-direction:column;
+    }
+}
