@@ -601,4 +601,7 @@ main .box4 .contacts .email a, main .box4 .contacts .in a {
     main .content{
         margin-right:4rem;
     }
+    main .content .experience{
+        margin-left:2rem;
+    }
 }
